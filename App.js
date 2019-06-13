@@ -56,7 +56,7 @@ export default class App extends React.Component {
         todos[index].name = todoText;
         return { ...prevState, edit: false, todoText: '', index: null }
       } else {
-        alert("Kindly update todo or cancel it")
+        alert("Kindly update the todo or cancel it")
       }
     })
   };
